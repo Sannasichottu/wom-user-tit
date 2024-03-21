@@ -75,13 +75,13 @@ export default function StepperForm() {
               </Button>
 
               <Button sx={{ ml: 2 }} variant="contained" color="primary" onClick={handleNext}>
-                {/* {activeStep === steps.length - 1 ? "Finish" : "Next"} */}
-                <Link
+                {activeStep === steps.length - 1 ? "Finish" : "Next"}
+                {/* <Link
                   to="/dashboard/enquiry"
                   style={{ color: "whitesmoke", textDecoration: "none" }}
                 >
                   Finish
-                </Link>
+                </Link> */}
               </Button>
             </Box>
           </Box>
