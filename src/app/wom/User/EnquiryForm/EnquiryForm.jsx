@@ -63,11 +63,11 @@ const Container = styled("div")(({ theme }) => ({
 const EnquiryForm = () => {
   return (
     <Container>
-      <Box className="breadcrumb">
+      {/* <Box className="breadcrumb">
         <Breadcrumb
           routeSegments={[{ name: "User", path: "/material" }, { name: "Enquiry Form" }]}
         />
-      </Box>
+      </Box> */}
 
       <Stack spacing={3}>
         <SimpleCard title="Product Detail's form">

@@ -6,14 +6,14 @@ import PaginationTable from "./PaginationTable";
 const AgainstInvoice = () => {
   return (
     <Container style={{ marginTop: "30px" }}>
-      <Box style={{ marginBottom: "30px" }} className="breadcrumb">
+      {/* <Box style={{ marginBottom: "30px" }} className="breadcrumb">
         <Breadcrumb
           routeSegments={[
             { name: "Against Invoice", path: "/material" },
             { name: "Invoice Order" }
           ]}
         />
-      </Box>
+      </Box> */}
 
       <SimpleCard title="Product Invoice">
         <PaginationTable />

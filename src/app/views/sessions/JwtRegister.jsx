@@ -94,6 +94,8 @@ export default function JwtRegister() {
                 validationSchema={validationSchema}>
                 {({ values, errors, touched, handleChange, handleBlur, handleSubmit }) => (
                   <form onSubmit={handleSubmit}>
+                     <h4 style={{marginBottom:'20px', textAlign:'center', textDecoration:'underline', fontWeight:'bold', color:'darkblue'}}>User Register</h4>
+                   
                     <TextField
                       fullWidth
                       size="small"
@@ -161,12 +163,21 @@ export default function JwtRegister() {
                       Register
                     </LoadingButton>
 
+                    
                     <Paragraph>
                       Already have an account?
                       <NavLink
                         to="/session/signin"
                         style={{ color: theme.palette.primary.main, marginLeft: 5 }}>
                         Login
+                      </NavLink>
+                    </Paragraph>
+                    <Paragraph>
+                      Vendor -
+                      <NavLink
+                        to="/vendor/signup"
+                        style={{ color: theme.palette.primary.main, marginLeft: 5 }}>
+                        Register
                       </NavLink>
                     </Paragraph>
                   </form>

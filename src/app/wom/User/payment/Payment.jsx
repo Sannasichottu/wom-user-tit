@@ -16,9 +16,9 @@ const Container = styled("div")(({ theme }) => ({
 export default function Payment() {
   return (
     <Container>
-      <Box className="breadcrumb">
+      {/* <Box className="breadcrumb">
         <Breadcrumb routeSegments={[{ name: "Payment", path: "/material" }, { name: "Payment" }]} />
-      </Box>
+      </Box> */}
 
       <Stack spacing={3}>
         <SimpleCard title="Checkout">

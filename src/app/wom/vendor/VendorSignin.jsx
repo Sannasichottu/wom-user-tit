@@ -60,7 +60,7 @@ const validationSchema = Yup.object().shape({
   email: Yup.string().email("Invalid Email address").required("Email is required!")
 });
 
-export default function JwtLogin() {
+export default function VendorSignin() {
   const theme = useTheme();
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
@@ -96,7 +96,8 @@ export default function JwtLogin() {
               >
                 {({ values, errors, touched, handleChange, handleBlur, handleSubmit }) => (
                   <form onSubmit={handleSubmit}>
-                    <h4 style={{marginBottom:'20px', textAlign:'center', textDecoration:'underline', fontWeight:'bold', color:'darkblue'}}>User Login</h4>
+                     <h4 style={{marginBottom:'20px', textAlign:'center', textDecoration:'underline', fontWeight:'bold', color:'darkblue'}}>Vendor Login</h4>
+                   
                     <TextField
                       fullWidth
                       size="small"
@@ -170,9 +171,9 @@ export default function JwtLogin() {
                       </NavLink>
                     </Paragraph>
                     <Paragraph>
-                      Vendor
+                      User
                       <NavLink
-                        to="/vendor/signin"
+                        to="/session/signin"
                         style={{ color: theme.palette.primary.main, marginLeft: 5 }}
                       >
                         Login

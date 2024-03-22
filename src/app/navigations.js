@@ -1,13 +1,13 @@
 export const navigations = [
-  { label: "User", type: "label" },
+  // { label: "User", type: "label" },
   { name: "Dashboard", path: "/dashboard/default", icon: "dashboard" },
   { name: "Enquiry Form", path: "/dashboard/enquiry", icon: "dashboard" },
   {
     name: "Place the Order",
     icon: "security",
     children: [
-      { name: "Order Online", iconText: "SI", path: "/dashboard/order/online" },
-      { name: "Aginst Invoice", iconText: "SU", path: "/dashboard/order/invoice" }
+      { name: "Invoice Generation", iconText: "SI", path: "/dashboard/order/online" },
+      { name: "Invoice Payment", iconText: "SU", path: "/dashboard/order/invoice" }
     ]
   },
   { name: "History", path: "/dashboard/history", icon: "dashboard" },

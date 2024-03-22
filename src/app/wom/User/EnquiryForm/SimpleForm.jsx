@@ -99,9 +99,8 @@ const SimpleForm = () => {
                 <option value={30}>tyy677</option>
               </NativeSelect>
             </FormControl>{" "}
-            <br />
-            <br />
-            <FormControl fullWidth>
+           
+            {/* <FormControl fullWidth>
               <InputLabel variant="standard" For="uncontrolled-native">
                 Engine Code
               </InputLabel>
@@ -119,11 +118,11 @@ const SimpleForm = () => {
                 <option value={30}>2TR-FE</option>
               </NativeSelect>
             </FormControl>{" "}
-            <br />
+            <br /> */}
           </Grid>
 
           <Grid item lg={6} md={6} sm={12} xs={12} sx={{ mt: 2 }}>
-            <InputLabel variant="standard" For="uncontrolled-native">
+            {/* <InputLabel variant="standard" For="uncontrolled-native">
               Vehicle Type
             </InputLabel>
             <RadioGroup
@@ -147,14 +146,14 @@ const SimpleForm = () => {
                 control={<Radio color="secondary" />}
               />
             </RadioGroup>{" "}
-            <br />
+            <br /> */}
             <InputLabel variant="standard" For="uncontrolled-native">
               Text Area
             </InputLabel>
             <textarea
               type="text"
               name="mobile"
-              rows="8"
+              rows="6"
               cols="60"
               value={mobile || ""}
               label="Mobile Nubmer"

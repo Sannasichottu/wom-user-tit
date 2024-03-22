@@ -10,6 +10,8 @@ import MatxLayout from "./components/MatxLayout/MatxLayout";
 import materialRoutes from "app/views/material-kit/MaterialRoutes";
 import WomUserRoutes from "./views/material-kit/WomUserRoutes";
 import Home from "./wom/Home/Home";
+import VendorSignin from "./wom/vendor/VendorSignin";
+import VendorSignup from "./wom/vendor/VendorSignup";
 
 // SESSION PAGES
 const NotFound = Loadable(lazy(() => import("app/views/sessions/NotFound")));
@@ -44,6 +46,10 @@ const routes = [
   { path: "/session/signin", element: <JwtLogin /> },
   { path: "/session/signup", element: <JwtRegister /> },
   { path: "/session/forgot-password", element: <ForgotPassword /> },
+
+  //vendor
+  { path: "/vendor/signin", element: <VendorSignin /> },
+  { path: "/vendor/signup", element: <VendorSignup /> },
 
   { path: "/", element: <Navigate to="home" /> },
   { path: "*", element: <NotFound /> }
