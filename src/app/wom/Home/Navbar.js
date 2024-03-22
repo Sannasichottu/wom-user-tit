@@ -24,8 +24,7 @@ export default function Navbar() {
         className={`${showNav ? "hamburger1" : "hamburger"}`}
       />
       <div className="logo">
-        <h1>TiT</h1>
-        <nav className="menu">
+        <img src="https://i-cdn.apsgo.com/cdn/ixIr4Z6kjFikqy9QhPW73k3UW79bxY0sqbhUJikM.webp" style={{width:'50px', height:'50px'}} alt="" />        <nav className="menu">
           <ul className="inner-nav">
             {/* <li><a href="#hub">Hub</a></li>
                   <li><a href="#mint">Mint</a></li>

@@ -6,10 +6,10 @@ export default function Testimonial() {
     return (
       <div className='testimonials'>
       <div className='testimonial-text'>
-          <h3>Testimonials</h3>
-          <h1>What Our Clients Say !</h1>
-          <p>See what our members are saying. Trusted by 1200+ world class businesses</p>
-          <NavLink to="/">Read all 2,432 reviews</NavLink>
+          <h5>Testimonials</h5>
+          <h4>What Our Clients Say !</h4>
+          <p>See what our members are saying. Trusted by 1200+ world class businesses Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus molestiae nesciunt eligendi reiciendis aspernatur perspiciatis? Exercitationem ipsa vero incidunt suscipit voluptas laboriosam natus eaque mollitia, omnis vitae provident enim! Pariatur? </p>
+          <NavLink to="/" >Read all 2,432 reviews</NavLink>
       </div>
       <div className='testimonial-cards'>
           <div className='card'>

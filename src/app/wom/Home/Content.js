@@ -5,15 +5,16 @@ export default function Content() {
       <div>
       <div className='container'>
           <div className='text'>
-              <h3>Car Engine</h3>
-              <h1>Most Searched on TiT</h1>
+              <h5>Car Engine</h5>
+              <h4>Most Searched on TiT</h4>
               <p style={{textAlign:'justify'}}>We offer the best rates for car spare parts and provide a complete range of spare parts. Along with spare parts we have an exclusive range of car accessories. If you are looking for car accessories online then we are the one-stop shop for you. At Motrparts, we check every spare part and make sure that you receive the original and best quality spare parts. All the spare parts go under quality tests so that our end user gets the best spare parts online</p>
-              <div className='button'><NavLink to="/">Explore Now &#8599;</NavLink></div>
+
+              {/* <div className='button' ><NavLink to="/" style={{marginBottom:'200px'}} >Explore Now &#8599;</NavLink></div> */}
           </div>
           <div className='image'>
               {/* <img src="crypto1.png" alt="" /> */}
              
-              <img style={{marginLeft:"30px"}} src="https://preview.free3d.com/img/2017/01/2399362966198682987/vf4vjkf5.jpg" alt="" />
+              <img style={{marginLeft:"30px"}} src="https://car-images.bauersecure.com/wp-images/2434/03-ford-mustang.jpg" alt="" />
             
           </div>
       </div>
